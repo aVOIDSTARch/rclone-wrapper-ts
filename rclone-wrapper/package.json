@@ -38,5 +38,8 @@
     "typescript": "^6.0.3",
     "vite-plus": "^0.1.20"
   },
-  "packageManager": "pnpm@11.6.0"
+  "packageManager": "pnpm@11.6.0",
+  "dependencies": {
+    "@avoidstarch/ts-kit": "github:aVOIDSTARch/ts-kit"
+  }
 }
