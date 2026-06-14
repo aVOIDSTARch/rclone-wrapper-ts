@@ -67,14 +67,21 @@ export interface CommandMap {
   allCmdArgs?: Argument[],
   savedCmdFmtStrings?: CmdFormatString[];
   builder?: CmdBuilder
+  built_on: Date,
   last_updated: Date
+}
+
+export type CmdCatalogEntry = {
+  cmdName: string,
+  cmdDescription: string
 }
 
 export interface CommandLibrary {
   name: string,
   description: string,
-  cmdCatalog: Record<string, string> // Command Name and Description
-  commandCollection: CommandMap[],
+  cmdCatalog?: CmdCatalogEntry[] // Command Name and Description
+  commandCollection?: CommandMap[],
+  built_on: Date,
   last_updated: Date
 }
 
