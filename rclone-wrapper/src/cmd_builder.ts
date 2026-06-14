@@ -109,7 +109,7 @@ export interface CmdBuilder {
 
 }
 
-export interface LibraryController {
+export interface CmdLibraryController {
 
   insertCmdMap(map: CommandMap, library: CommandLibrary): boolean;
 
