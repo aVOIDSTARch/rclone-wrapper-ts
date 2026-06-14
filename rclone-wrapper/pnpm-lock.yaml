@@ -17,7 +17,7 @@ importers:
         version: https://codeload.github.com/aVOIDSTARch/ts-kit/tar.gz/eecc07e1a738981e1dd3a60d2492b713e02db87a
     devDependencies:
       '@types/node':
-        specifier: ^25.6.2
+        specifier: ^25.9.3
         version: 25.9.3
       '@typescript/native-preview':
         specifier: 7.0.0-dev.20260509.2
