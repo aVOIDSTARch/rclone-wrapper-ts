@@ -123,5 +123,5 @@ export interface CmdLibraryController {
 
   getLibraryLastUpdated(libraryName: string, library: CommandLibrary): Date;
 
-  getLibrariesList(dirName: string): string[];
+  getLibrariesList(dirName?: string): string[];
 }
